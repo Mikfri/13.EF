@@ -1,0 +1,30 @@
+﻿@page
+@model ItemRazorV1.Pages.Order.OrderItemModel
+@{
+}
+
+
+
+
+@*<form method="post">
+	<div class="form-group">
+		<label asp-for="@Model.Item.Id" class="control-label"></label>
+		<input asp-for="@Model.Item.Id" class="form-control" />
+		<span asp-validation-for="@Model.Item.Id" class="text-danger"></span>
+	</div>
+	
+
+	<p>
+		<div class="form-group">
+			<input type="submit" value="Create" class="btn btn-primary" />
+		</div>
+	</p>
+</form>*@
+
+<form method="post">
+	<div class="form-group">
+		<label for="count">Count:</label>
+		<input class="form-control" type="number" name="count" id="count" min="1" value="1" required />
+	</div>
+	<button type="submit" class="btn btn-primary">Order</button>
+</form>

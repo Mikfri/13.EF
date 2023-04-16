@@ -1,0 +1,118 @@
+﻿@page
+@model ItemRazorV1.Pages.Item.GetAllItemsModel
+@{
+}
+
+<h1>Items</h1>
+
+<div class="row">
+	<div class="col-7"><h5>Search Name</h5></div>
+	<div class="col-4"><h5>Filter Price</h5></div>
+	<div class="col-1"></div>
+</div>
+
+<div class="row">
+	<div class="col-4">
+		<form method="post" class="form-inline">
+			<div class="input-group mb-3">
+				<input asp-for="SearchString" class="form-control mr-1" placeholder="Enter search term" />
+				<input type="submit" asp-page-handler="NameSearch" value="Search" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+	<div class="col-3"></div>
+	<div class="col-5">
+		<form method="post" class="form-inline">
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text">Min</span>
+				</div>
+				<input asp-for="MinPrice" class="form-control me-2"/>
+				<div class="input-group-prepend">
+					<span class="input-group-text">Max</span>
+				</div>
+				<input asp-for="MaxPrice" class="form-control me-2"/>
+				<input type="submit" asp-page-handler="PriceFilter" value="Filter" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+
+	
+</div>
+
+<table class="table table-bordered table-hover table-striped table-opacity" width="60%">
+	<colgroup>
+		<col style="width : 5%">
+		<col style="width : 77%">
+		<col style="width : 9%">
+		<col style="width : 9%">
+	</colgroup>
+	<thead>
+			<tr class="btn-secondary active">
+                <th>
+                    <div class="d-flex justify-content-between p-0">
+                        <div><h5>Id </h5></div>
+                        <div>
+                        <a data-toggle="tooltip" title="Sort By Id" asp-page-handler="SortById"><i class="fa fa-angle-up"></i></a>
+                            <a data-toggle="tooltip" title="Sort By Id Descending" asp-page-handler="SortByIdDescending"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="d-flex justify-content-between p-0">
+                        <div>
+                            <h5>Name </h5>
+                        </div>
+                        <div>
+                            <a data-toggle="tooltip" title="Sort By Name" asp-page-handler="SortByName"><i class="fa fa-angle-up"></i></a>
+                            <a data-toggle="tooltip" title="Sort By Name Descending" asp-page-handler="SortByNameDescending"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                   
+                </th>
+                <th>
+                    <div class="d-flex justify-content-between p-0">
+                        <div>
+                            <h5>Price </h5>
+                        </div>
+                        <div>
+                            <a data-toggle="tooltip" title="Sort By Price" asp-page-handler="SortByPrice"><i class="fa fa-angle-up"></i></a>
+                            <a data-toggle="tooltip" title="Sort By Price Descending" asp-page-handler="SortByPriceDescending"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <h5>Action</h5>
+                </th>
+            </tr>
+	</thead>
+	<tbody>
+		@if (Model.Items != null)
+		{
+			foreach (var item in Model.Items)
+			{
+				<tr class="btn-secondary">
+					<td>
+						@item.Id
+					</td>
+					<td>
+						@item.Name
+					</td>
+					<td>
+						@item.Price
+					</td>
+					<td>
+						<a class="btn btn-primary btn-sm" type="button" title="Edit" asp-page="EditItem" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
+						<a class="btn btn-danger btn-sm " type="button" title="Delete" asp-page="DeleteItem" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+						<a class="btn btn-primary btn-sm " type="button" title="Amount" asp-page="../Order/OrderItem" asp-route-id="@item.Id"><i class="fa fa-shopping-cart"></i></a>
+					</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>
+
+<p>
+	<a class="btn btn-primary" asp-page="CreateItem"> Create a new Item </a>
+</p>
+

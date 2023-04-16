@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ItemRazorV1
+build_property.RootNamespace = ItemRazorV1
+build_property.ProjectDir = C:\Users\mikid\Documents\02_skolearbejde\Zeal\semester02Files\Projekter\DatabaseØvelser\13.EF Code First - Relations between Classes Using LINQ_DAO\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mikid\Documents\02_skolearbejde\Zeal\semester02Files\Projekter\DatabaseØvelser\13.EF Code First - Relations between Classes Using LINQ_DAO
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Admin/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Item/CreateItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbVxDcmVhdGVJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Item/DeleteItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbVxEZWxldGVJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Item/EditItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbVxFZGl0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Item/GetAllItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbVxHZXRBbGxJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Login/LogInPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9nSW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Login/LogOutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9nT3V0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Order/OrderItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcT3JkZXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikid/Documents/02_skolearbejde/Zeal/semester02Files/Projekter/DatabaseØvelser/13.EF Code First - Relations between Classes Using LINQ_DAO/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ilta62rrma
